@@ -102,7 +102,7 @@ export function canViewRoute(role: RoleId, pathname: string): boolean {
     { prefix: '/projects', roles: ROLE_ORDER },
     { prefix: '/work-items', roles: ['MANAGER', 'SITE_MANAGER'] },
     { prefix: '/handovers', roles: ['MANAGER', 'SITE_MANAGER'] },
-    { prefix: '/materials', roles: ['MANAGER', 'SALES', 'SITE_MANAGER'] },
+    { prefix: '/materials', roles: ['MANAGER', 'SALES', 'SITE_MANAGER', 'ACCOUNTANT'] },
     { prefix: '/suppliers', roles: ['MANAGER', 'SALES', 'ACCOUNTANT'] },
     { prefix: '/workers', roles: ['MANAGER', 'SITE_MANAGER', 'ACCOUNTANT'] },
     { prefix: '/finance', roles: ['MANAGER', 'ACCOUNTANT'] },
